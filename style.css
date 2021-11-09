@@ -1,0 +1,145 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: black;
+    background: white;
+}
+header {
+    margin: 1rem;
+}
+header nav {
+    display: inline;
+    float:right;
+}
+header a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #555555;
+    display: inline;
+    font-weight: 500;
+}
+header ul {
+    display: inline;
+}
+header ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 1.5rem;
+}
+main {
+    width: 100%;
+}
+main img.home-img {
+    width: 100%;
+    height: auto;
+    display:block;
+}
+main h1 {
+    color: #555555;
+    margin: 1.5rem;
+    position: relative;
+    font-weight: normal;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    top: -6rem;
+}
+main section h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 4rem;
+}
+main section.contact h2 {
+    text-align: left;
+}
+main section h3 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin-top: 3rem;
+}
+main section {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+main section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 5rem;
+}
+main section img.img_right {
+    margin-right: 2rem;
+    float: left;
+}
+main section img.img_left {
+    margin-left: 2rem;
+    float: right;
+}
+main section p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+main section p.chapo {
+    text-align: center;
+}
+main section p.color-grey {
+    color: #555555;
+}
+main section.contact p.address {
+    color: #5c79a1;
+    font-weight: bold;
+}
+main section.contact label {
+    display: block;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+    border-bottom: #999999 solid 1px;
+    color: #555555;
+}
+main section.contact input, 
+main section.contact textarea {
+    width: 50%;
+    height: 1.2rem;
+    border: none;
+}
+main section.contact input[type=submit] {
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    height: auto;
+    background-color: #ddd;
+    text-transform: uppercase;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    background: #ccc;
+}
+@media (min-width: 768px) {
+    main section {
+        width: 760px;
+    }
+    main section img {
+        width: 48%;
+        display: inline;
+    }
+}
+@media (min-width: 1024px) {
+    main section {
+        width: 1020px;
+    }
+}
